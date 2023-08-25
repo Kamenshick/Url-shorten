@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#src-link a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#body-color {
+    background: var(--bs-dark);
+}
+
+#navbar {
+    background: linear-gradient(90deg, rgba(64,0,255,1) 0%, rgba(32,182,233,1) 32%, rgba(18,182,201,1) 46%, rgba(95,122,240,1) 54%, rgba(192,0,255,1) 92%);
+}
+
+#nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+#nav-h1 {
+    color: aliceblue;
+}
+
+main {
+    margin-bottom: 5%;
+}
+
+#service {
+    color: aliceblue;
+}
+
+#name-service {
+    margin-top: 0.5em;
+    font-size: 2em;
+    animation: letter-animation 2s ease 0s infinite alternate forwards;
+}
+
+@keyframes letter-animation{
+    0% {
+        color: aliceblue;
+    }
+
+    25% {
+        color: rgb(25, 141, 243);
+    }
+
+    50% {
+        color: rgb(17, 107, 186);
+    }
+
+    75% {
+        color: rgb(19, 67, 227);;
+    }
+
+    100% {
+        color: rgb(23, 54, 228);
+    }
+
+}
+
+#about-service {
+    color: rgba(240, 248, 255, 0.5);
+}
+
+#src-input::placeholder{
+    color: aliceblue;
+  }
+
+#src-input {
+    color: aliceblue;
+    background: linear-gradient(152deg, rgba(50,194,190,1) 2%, rgba(43,75,199,0.9864146342130602) 47%, rgba(89,0,255,1) 96%); 
+}
+
+#button-addon2 {
+    color: aliceblue;
+    background: linear-gradient(152deg, rgba(50,194,190,0.7) 2%, rgba(43,75,199,0.5) 47%, rgba(89,0,255,0.6) 96%); 
+}
+
+#src {
+    background: linear-gradient(152deg, rgba(89,0,255,1) 0%, rgba(192,0,255,1) 98%); 
+    height: 15vh;
+    border-radius: 15px;
+}
+
+#src-link {
+    color: aliceblue;
+    font-size: 2em;
+}
+
+#src-link a:hover {
+    color: rgb(9, 231, 227);
+    cursor: pointer;
+}
+
+#copy-btn {
+    color: aliceblue;
+    border-color: rgba(9, 231, 227, 0);
+    background: linear-gradient(152deg, rgba(2,31,135,1) 0%, rgba(0,56,255,1) 98%); 
+}
+
+#copy-btn:hover {
+    border-color: rgba(9, 231, 227, 0.5);
+}
+
+#copy-text {
+    color: rgba(240, 248, 255, 0.6);
+}
